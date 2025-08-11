@@ -10,6 +10,54 @@
   margin-bottom: 3rem;
 }
 
+.connectForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.connectForm label {
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.connectForm input,
+.connectForm textarea {
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.connectForm button {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border: none;
+  padding: 0.75rem;
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(88, 166, 255, 0.5);
+}
+
+.connectForm button:hover {
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+}
+
 .connectGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -17,28 +65,32 @@
 }
 
 .connectCard {
-  background-color: var(--light-gray);
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
   border-radius: 8px;
   padding: 2rem;
   text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.connectCard:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary-color);
+  box-shadow: 0 0 20px rgba(88, 166, 255, 0.3);
 }
 
 .connectCard h2 {
   font-size: 1.5rem;
   margin-top: 0;
-  border-bottom: 2px solid var(--accent-color);
+  border-bottom: 2px solid var(--primary-color);
   padding-bottom: 0.5rem;
 }
 
 .connectLink {
   display: inline-block;
   margin-top: 1rem;
-  color: var(--accent-color);
+  color: var(--primary-color);
   font-weight: 600;
-  transition: color 0.3s ease;
-}
-
-.connectLink:hover {
-  text-decoration: underline;
+  font-family: var(--font-family-secondary);
 }

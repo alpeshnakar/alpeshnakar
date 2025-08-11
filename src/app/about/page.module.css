@@ -12,15 +12,21 @@
 
 .section {
   margin-bottom: 3rem;
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .section h2 {
   font-size: 2rem;
-  border-bottom: 2px solid var(--accent-color);
+  border-bottom: 2px solid var(--primary-color);
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
 }
 
 .section p {
   line-height: 1.8;
+  color: var(--text-color);
 }

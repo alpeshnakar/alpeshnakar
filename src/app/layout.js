@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
         <header className="site-header">
           <nav className="nav-container">
             <Link href="/" className="logo">
-              Alpesh Nakar
+              alpeshnakar
             </Link>
             <ul className="nav-list">
               {navItems.map((item) => (
@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
         </header>
         <main>{children}</main>
         <footer className="site-footer">
-          <p>&copy; {new Date().getFullYear()} Alpesh Nakar. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} alpeshnakar.com</p>
         </footer>
       </body>
     </html>

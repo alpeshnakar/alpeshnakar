@@ -1,0 +1,41 @@
+.postContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.postTitle {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.postDate {
+  font-size: 1rem;
+  color: var(--text-color);
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.postContent h2 {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  color: var(--secondary-color);
+}
+
+.postContent h3 {
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.postContent p,
+.postContent li {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: var(--text-color);
+}
+
+.postContent ul {
+  padding-left: 1.5rem;
+}
