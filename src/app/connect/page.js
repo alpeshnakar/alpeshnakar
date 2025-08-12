@@ -26,7 +26,7 @@ export default function ConnectPage() {
           <p>
             Connect with me on LinkedIn to follow my professional journey, industry insights, and latest updates.
           </p>
-          <a href="https://www.linkedin.com/in/alpesh-nakar" target="_blank" rel="noopener noreferrer" className={styles.connectLink}>
+          <a href="https://www.linkedin.com/in/alpeshnakar" target="_blank" rel="noopener noreferrer" className={styles.connectLink}>
             Connect on LinkedIn &rarr;
           </a>
         </div>

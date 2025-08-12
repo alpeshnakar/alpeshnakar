@@ -5,17 +5,17 @@ export default function ExpertisePage() {
     {
       title: 'IAM Strategy & Governance',
       description: 'Developing comprehensive IAM roadmaps, policy frameworks, and deployment oversight. Specializing in Zero Trust, Principle of Least Privilege, and Privileged Access Management (PAM).',
-      keywords: ['Zero Trust', 'Least Privilege', 'RBAC/ABAC', 'IAM Program Maturity'],
+      keywords: ['Zero Trust', 'Least Privilege', 'RBAC/ABAC', 'IAM Program Maturity' , 'Active Directory Security Assessment'],
     },
     {
       title: 'Cloud Security Architecture',
       description: 'Securing identities and data across multi-cloud environments, including Azure, AWS, and GCP. Expertise in specific platforms like Microsoft Entra, AWS IAM, and Amazon Cognito.',
-      keywords: ['AWS IAM', 'Microsoft Entra', 'Cloud Access Control', 'Secure Deployments'],
+      keywords: ['Microsoft Entra', 'Cloud Access Control', 'Secure Deployments'],
     },
     {
       title: 'Data Protection & Compliance',
       description: 'Implementing robust data protection strategies to meet regulatory frameworks like GDPR and HIPAA. Focused on High-Value Asset identification, Data Loss Prevention (DLP), and privacy-by-design principles.',
-      keywords: ['GDPR', 'HIPAA', 'Data Protection', 'Data Loss Prevention'],
+      keywords: ['IRAP', 'ISM', 'ACSC - Essential Eight', 'Data Protection', 'Data Loss Prevention'],
     },
     {
       title: 'Authentication & Access Control',
